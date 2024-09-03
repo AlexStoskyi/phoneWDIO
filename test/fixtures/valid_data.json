@@ -1,0 +1,8 @@
+{
+    "user_email": "alexstoskyi@gmail.com",
+    "user_password": "12345qwert",
+    "singedUpMessage": "You successfully signed up!",
+    "loginMessage": "You are logged in!",
+    "foundWDIO": "You found me!!!",
+    "textBox": "WebdriverIO has a great community that supports all members."
+}
