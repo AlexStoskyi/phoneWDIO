@@ -1,6 +1,10 @@
+// import * as dotenv from 'dotenv';
+// dotenv.config();
+
+
 exports.config = {
-  user: process.env.BROWSERSTACK_USERNAME || 'nataliiaonashko_rXGzWK',
-  key: process.env.BROWSERSTACK_ACCESS_KEY || 'vs7UbyaJDEqkyBmyz7Hs',
+  user: 'nataliiaonashko_rXGzWK',
+  key: 'vs7UbyaJDEqkyBmyz7Hs',
 
   updateJob: false,
   specs: [

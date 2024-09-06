@@ -1,6 +1,6 @@
 import { Browser } from 'webdriverio';
 
-// Функція для горизонтального свайпу праворуч
+
 export async function swipeRight(driver: Browser): Promise<void> {
     const { width, height } = await driver.getWindowRect();
     const startY = Math.floor(height * 0.7); // Початкова точка по висоті (70% від висоти екрану)
@@ -28,12 +28,12 @@ export async function swipeRight(driver: Browser): Promise<void> {
     ]);
 }
 
-// Функція для вертикального свайпу вниз
+
 export async function swipeDown(driver: Browser): Promise<void> {
     const { width, height } = await driver.getWindowRect();
-    const startX = Math.floor(width * 0.5);  // Середина екрану по ширині
-    const startY = Math.floor(height * 0.8); // Початкова точка по висоті (80% від висоти екрану)
-    const endY = Math.floor(height * 0.2);   // Кінцева точка по висоті (20% від висоти екрану)
+    const startX = Math.floor(width * 0.5);
+    const startY = Math.floor(height * 0.8);
+    const endY = Math.floor(height * 0.2);
 
     await driver.touchPerform([
         {
